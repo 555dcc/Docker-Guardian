@@ -15,6 +15,10 @@ Watchtower is great, but it blindly updates containers. If an update breaks (con
 ## 🛠️ Quick Start
 1. Clone this repo.
 2. Build the image: `docker build -t my-guardian:v1 .`
-3. Run it: 
+3. Run it:
 ```bash
 docker run -d --name guardian-web -p 5000:5000 -v /var/run/docker.sock:/var/run/docker.sock:ro my-guardian:v1
+```
+## 📸 Screenshots
+
+![Docker Guardian UI](https://raw.githubusercontent.com/555dcc/Docker-Guardian/main/Screenshot_2026-11-02-11-02-07-93_df198e732186825c8df26e3c5a10d7cd.jpg)
